@@ -19,6 +19,7 @@ SPORTS = [
 
 
 def post_tweet(event, context):
+    return {'message': 'Hello'}
     client = get_twitter_client_from_environment()
     message = get_tweet_message(ANIMALS, SPORTS)
 

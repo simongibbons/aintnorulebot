@@ -1,0 +1,21 @@
+service: aintnorulebot
+
+provider:
+  name: aws
+  runtime: python3.7
+  region: eu-west-1
+
+functions:
+  post_tweet:
+    handler: handler.post_tweet
+
+plugins:
+   - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+     dockerizePip: true
+
+package:
+  exclude:
+    - venv/**

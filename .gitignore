@@ -107,5 +107,5 @@ venv.bak/
 # Pycharm
 .idea
 
-# Build artifacts
-function.zip
+# Serverless
+.serverless/
