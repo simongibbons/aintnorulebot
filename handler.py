@@ -22,7 +22,7 @@ def post_tweet(event, context):
     client = get_twitter_client_from_environment()
     message = get_tweet_message(ANIMALS, SPORTS)
 
-    print(f"Posting: {message} to twitter")
+    print(f"Posting: '{message}' to twitter")
     client.update_status(message)
 
     return {'message': message}
