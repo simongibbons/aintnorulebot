@@ -8,6 +8,11 @@ provider:
 functions:
   post_tweet:
     handler: handler.post_tweet
+    environment:
+      TWITTER_CONSUMER_KEY: ${ssm:/aintnorulebot/twitter_consumer_key}
+      TWITTER_CONSUMER_SECRET: ${ssm:/aintnorulebot/twitter_consumer_secret}
+      TWITTER_ACCESS_KEY: ${ssm:/aintnorulebot/twitter_access_key}
+      TWITTER_ACCESS_SECRET: ${ssm:/aintnorulebot/twitter_access_secret}
 
 plugins:
    - serverless-python-requirements
