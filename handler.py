@@ -8,6 +8,17 @@ ANIMALS = [
     'Dog',
     'Cat',
     'Raccoon',
+    'Manatee',
+    'Shark',
+    'Tiger',
+    'Hawk',
+    'Rattlesnake',
+    'Moose',
+    'Mongoose',
+    'Lion',
+    'Giraffe',
+    'Panda',
+    'Capybara',
 ]
 
 SPORTS = [
@@ -15,6 +26,17 @@ SPORTS = [
     'Football',
     'Tennis',
     'Rugby',
+    'Water Polo',
+    'Lacrosse',
+    'Curling',
+    'Golf',
+    'Ultimate Frisbee',
+    'Beach volleyball',
+    'Dodgeball',
+    'Baseball',
+    'Cricket',
+    'Snooker',
+    'Handball',
 ]
 
 
