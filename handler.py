@@ -53,7 +53,32 @@ def post_tweet(event, context):
 def get_tweet_message(animals: List[str], sports: List[str]) -> str:
     animal = random.choice(animals)
     sport = random.choice(sports)
-    return f"Ain't no rule that says a {animal} can't play {sport}"
+    indefinite_article = get_indefinite_article(animal)
+    return f"Ain't no rule that says {indefinite_article} {animal} can't play {sport}"
+
+
+def get_indefinite_article(noun: str) -> str:
+    """
+    >>> get_indefinite_article('Elephant')
+    'an'
+    >>> get_indefinite_article('lion')
+    'a'
+    >>> get_indefinite_article('  ant')
+    'an'
+    >>> get_indefinite_article('hotel')
+    'an'
+    """
+    normalised_noun = noun.lower().strip()
+
+    if not normalised_noun:
+        return 'a'
+
+    if normalised_noun[0] in 'aeiou':
+        return 'an'
+    elif normalised_noun[0] == 'h':
+        return get_indefinite_article(normalised_noun[1:])
+    else:
+        return 'a'
 
 
 def get_twitter_client_from_environment():
