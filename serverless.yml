@@ -16,7 +16,7 @@ functions:
       TWITTER_ACCESS_SECRET: ${ssm:/aintnorulebot/twitter_access_secret}
     events:
       - schedule:
-          rate: rate(12 hours)
+          rate: rate(6 hours)
 
 plugins:
    - serverless-python-requirements
