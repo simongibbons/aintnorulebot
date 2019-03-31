@@ -5,38 +5,38 @@ from typing import List
 import tweepy
 
 ANIMALS = [
-    'Dog',
-    'Cat',
-    'Raccoon',
-    'Manatee',
-    'Shark',
-    'Tiger',
-    'Hawk',
-    'Rattlesnake',
-    'Moose',
-    'Mongoose',
-    'Lion',
-    'Giraffe',
-    'Panda',
-    'Capybara',
+    'dog',
+    'cat',
+    'raccoon',
+    'manatee',
+    'shark',
+    'tiger',
+    'hawk',
+    'rattlesnake',
+    'moose',
+    'mongoose',
+    'lion',
+    'giraffe',
+    'panda',
+    'capybara',
 ]
 
 SPORTS = [
-    'Basketball',
-    'Football',
-    'Tennis',
-    'Rugby',
-    'Water Polo',
-    'Lacrosse',
-    'Curling',
-    'Golf',
-    'Ultimate Frisbee',
-    'Beach volleyball',
-    'Dodgeball',
-    'Baseball',
-    'Cricket',
-    'Snooker',
-    'Handball',
+    'basketball',
+    'football',
+    'tennis',
+    'rugby',
+    'water polo',
+    'lacrosse',
+    'curling',
+    'golf',
+    'ultimate frisbee',
+    'beach volleyball',
+    'dodgeball',
+    'baseball',
+    'cricket',
+    'snooker',
+    'handball',
 ]
 
 
@@ -54,7 +54,7 @@ def get_tweet_message(animals: List[str], sports: List[str]) -> str:
     animal = random.choice(animals)
     sport = random.choice(sports)
     indefinite_article = get_indefinite_article(animal)
-    return f"Ain't no rule that says {indefinite_article} {animal} can't play {sport}"
+    return f"Ain't no rule says {indefinite_article} {animal} can't play {sport}"
 
 
 def get_indefinite_article(noun: str) -> str:
@@ -65,8 +65,6 @@ def get_indefinite_article(noun: str) -> str:
     'a'
     >>> get_indefinite_article('  ant')
     'an'
-    >>> get_indefinite_article('hotel')
-    'an'
     """
     normalised_noun = noun.lower().strip()
 
@@ -75,8 +73,6 @@ def get_indefinite_article(noun: str) -> str:
 
     if normalised_noun[0] in 'aeiou':
         return 'an'
-    elif normalised_noun[0] == 'h':
-        return get_indefinite_article(normalised_noun[1:])
     else:
         return 'a'
 
