@@ -2,6 +2,7 @@ American football
 Aussie rules football
 Eton fives
 Monopoly
+Omaha hi-lo
 Texas hold 'em
 Winchester College football
 air hockey
@@ -38,7 +39,7 @@ e-sports
 elephant polo
 faro
 field hockey
-five card studOmaha hi-lo
+five card stud
 fives
 foosball
 football
