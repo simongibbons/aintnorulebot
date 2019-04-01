@@ -1,0 +1,130 @@
+Thompson's gazelle
+adelie penguin
+alligator
+antelope
+aye-aye
+baboon
+barn owl
+beaver
+beetle
+black widow spider
+blue tit
+boa constrictor
+bream
+buzzard
+capybara
+cardinal bird
+caribou
+cat
+catfish
+cheese mite
+chicken
+chimpanzee
+cobra
+coley
+cormorant
+cougar
+crocodile
+daddy long-legs
+deer tick
+dik-dik
+dingo
+dog
+dolphin
+duck
+eagle
+eel
+electric eel
+elk
+emperor penguin
+flamingo
+flea
+fly
+frog
+gazelle
+gibbon
+giraffe
+goat
+goose
+gorilla
+goshawk
+great bustard
+great tit
+great white shark
+greeb
+gyrfalcon
+haddock
+hammerhead shark
+hare
+hawk
+hedgehog
+hobby hawk
+humpback whale
+killer whale
+king penguin
+lamb
+leopard
+leveret
+lion
+little owl
+lynx
+manatee
+mandrill
+meerkat
+mole
+mongoose
+moose
+mosquito
+naked mole rat
+newt
+orangutan
+orca
+otter
+owl
+panda
+pangasius
+pelican
+penguin
+pig
+porpoise
+puma
+python
+rabbit
+raccoon
+rat
+rattlesnake
+right whale
+robin
+rock hopper penguin
+scarab beetle
+screech owl
+sea urchin
+shag
+shark
+sheep
+shrew
+siamang gibbon
+small-mouth bass
+snake
+snapping turtle
+sperm whale
+spider
+star-nosed mole
+tapeworm
+tarantula
+tawny owl
+tick
+tiger
+toad
+tortoise
+tsetse fly
+turkey
+turkey vulture
+turtle
+vole
+vulture
+warthog
+western lowland gorilla
+whale
+whale shark
+worm
