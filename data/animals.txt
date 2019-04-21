@@ -1,13 +1,19 @@
 Thompson's gazelle
 adelie penguin
 alligator
+amazon giant fishing spider
 antelope
+assassin bug
+axolotl
 aye-aye
 baboon
+bactrian camel
 barn owl
 beaver
 beetle
 black widow spider
+blob fish
+blue-footed booby
 blue tit
 boa constrictor
 bream
@@ -32,6 +38,7 @@ dingo
 dog
 dolphin
 duck
+dugong
 eagle
 eel
 electric eel
@@ -60,6 +67,8 @@ hawk
 hedgehog
 hobby hawk
 humpback whale
+japanese spider crab
+kakapo
 killer whale
 king penguin
 lamb
@@ -67,18 +76,22 @@ leopard
 leveret
 lion
 little owl
+long-wattled umbrellabird
 lynx
 manatee
 mandrill
 meerkat
+mexican mole lizard
 mole
 mongoose
 moose
 mosquito
+narwhal
 naked mole rat
 newt
 orangutan
 orca
+okapi
 otter
 owl
 panda
@@ -86,6 +99,7 @@ pangasius
 pelican
 penguin
 pig
+platypus
 porpoise
 puma
 python
@@ -93,11 +107,14 @@ rabbit
 raccoon
 rat
 rattlesnake
+red panda
 right whale
 robin
 rock hopper penguin
+salamander
 scarab beetle
 screech owl
+sea cucumber
 sea urchin
 shag
 shark
@@ -112,6 +129,7 @@ spider
 star-nosed mole
 tapeworm
 tarantula
+tardigrade
 tawny owl
 tick
 tiger
@@ -121,6 +139,7 @@ tsetse fly
 turkey
 turkey vulture
 turtle
+venezuelan poodle moth
 vole
 vulture
 warthog
@@ -128,3 +147,4 @@ western lowland gorilla
 whale
 whale shark
 worm
+wombat

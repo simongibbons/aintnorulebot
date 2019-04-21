@@ -33,6 +33,7 @@ croquet
 crown green bowls
 curling
 darts
+Danish longball
 dodgeball
 draughts
 e-sports
@@ -48,6 +49,7 @@ gaelic football
 go
 goalball
 golf
+hardcourt bike polo
 handball
 hide and seek
 hockey
@@ -56,6 +58,7 @@ hurling
 ice hockey
 it
 jai alai
+jorky ball
 kabadi
 korfball
 kwik cricket
@@ -64,9 +67,11 @@ lawn tennis
 major league baseball
 netball
 paintball
+patball
 pelota
 petonque
 pick-up stix
+pickleball
 ping-pong
 poker
 polo
